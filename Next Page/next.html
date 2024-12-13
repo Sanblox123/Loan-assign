@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Assign 2</title>
+    <link rel="stylesheet" href="next.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="../Images/logo.png" alt="logo">
+        </div>
+        <div class="nava">
+            <a href="../Landing Page/landing.html">Home</a>
+            <a href="$">About</a>
+            <a href="$">Blog</a>
+            <a href="$">Contact</a>
+            <a href="../Next Page/next.html" class="special">Get Started</a>
+        </div>
+    </div>
+    <form id="ourForm" onsubmit="return validateForm(event)">
+
+        <div>
+            <input type="text" id="b_alance" placeholder="Current account balance">
+            <p id="b_err" class="error"></p>
+        </div>
+        <div>
+            <input type="text" id="l_oan" placeholder="Amount of loan">
+            <p id="l_err" class="error"></p>
+        </div>
+        <div>
+            <input type="text" id="h_istory" placeholder="Duration from last credit">
+            <p id="c_err" class="error"></p>
+        </div>
+        <div>
+            <input type="text" id="d_eposit" placeholder="Duration from last deposit">
+            <p id="d_err" class="error"></p>
+        </div>
+        <div>
+            <input type="text" id="c_ollection" placeholder="Duration from last loan collected">
+            <p id="co_err" class="error"></p>
+        </div>
+        <div>
+            <input type="text" id="r_epayment" placeholder="Loan repayment period">
+            <p id="r_err" class="error"></p>
+        </div>
+        <div>
+            <input type="text" id="t_ype" placeholder="Type of account operated">
+            <p id="t_err" class="error"></p>
+        </div>
+        <button>Submit Here</button>
+        <p id="loaner"></p>
+    </form>
+    <script src="./next.js"></script>
+</body>
+</html>
+
+
